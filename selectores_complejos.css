@@ -1,0 +1,11 @@
+td[colspan="2"], td[rowspan="2"]{
+    background-color: #234E54;
+}
+
+td[colspan="3"], td[rowspan="3"]{
+    background-color: #ACA759;
+}
+
+td[colspan="4"], td[rowspan="4"]{
+    background-color: #CEA885;
+}
