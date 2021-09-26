@@ -9,3 +9,31 @@ td[colspan="3"], td[rowspan="3"]{
 td[colspan="4"], td[rowspan="4"]{
     background-color: #CEA885;
 }
+
+.comentarios{
+    border: thin dotted #AC8159;
+    margin-left: 10%;
+	margin-right: 10%;
+    font-style: italic;
+}
+
+li[id]{
+    font-family: Verdana;
+    color: #442A5D;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+li[id] .negrita{
+    background-color: #FF9;
+}
+
+p + p{
+    text-decoration: underline;
+}
+
+li > a[href]{
+    background-color: #755E8B;
+}
