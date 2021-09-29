@@ -1,0 +1,45 @@
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    vertical-align: bottom;
+    text-align: center;
+}
+
+tr {
+    height: 50px;
+}
+
+th[scope="row"] {
+    background-color:lightblue ;
+}
+
+tr.par td {
+    background-color:lightgoldenrodyellow;
+}
+
+tr.par:first-of-type td {
+    background-color: yellow;
+}
+
+th.euro {
+    background-image: url("imagenes/euro.png");
+    background-repeat: no-repeat;
+}
+
+th.dolar {
+    background-image: url("imagenes/dolar.png");
+    background-repeat: no-repeat;
+}
+
+th.libra {
+    background-image: url("imagenes/libra.png");
+    background-repeat: no-repeat;
+}
+
+th.yen {
+    background-image: url("imagenes/yen.png");
+    background-repeat: no-repeat;
+}
