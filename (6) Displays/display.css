@@ -1,0 +1,33 @@
+#negrita {
+    display: block;
+}
+
+span + p, span + p + p {
+    display: inline;
+}
+
+p:nth-child(5), p:nth-child(6) {
+    display: list-item;
+    color: red;
+}
+
+p:nth-child(8) {
+    display: none;
+}
+
+.bloqueenlinea {
+    display: inline-block;
+    height: 10em;
+    width: 10em;
+}
+
+p:nth-child(10), p:nth-child(11), p:nth-child(12) {
+    display: table-cell;
+    width: 50em;
+}
+
+p:nth-child(13){
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
