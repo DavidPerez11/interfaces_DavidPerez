@@ -1,0 +1,11 @@
+html {
+    background: url(madrid.jpg) no-repeat center ;
+    background-position:center initial;
+    background-position-y: 25rem;
+}
+
+div#logo {
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+}

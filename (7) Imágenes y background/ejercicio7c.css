@@ -1,0 +1,12 @@
+html {
+    background: url(madrid.jpg) no-repeat center;
+    background-position-y: 0em;
+}
+
+div#logo {
+    height: 200px;
+    width: 200px;
+    background-image: url("logo.png");
+    background-size: contain;
+    box-shadow: 10px 10px 5px black;
+}
