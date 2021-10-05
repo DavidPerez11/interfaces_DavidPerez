@@ -16,7 +16,11 @@ h2 {
 }
 
 li {
-    margin: 1em;
+    margin-bottom: 1em;
+}
+
+li:last-child {
+    margin-bottom: 0px;
 }
 
 h1 {
