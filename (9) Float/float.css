@@ -1,0 +1,47 @@
+div#principal div {
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+}
+
+div#principal {
+    margin: auto;
+    border: 1px solid black;
+    overflow: auto; 
+    width: fit-content;
+}
+
+div.linea2 {
+    background-color: green;
+}
+
+div.linea3 {
+    background-color: blue;
+}
+
+div#_2{
+    visibility: hidden;
+}
+
+div#_4 {
+    clear: left;
+    display: none;
+}
+
+div#_5 {
+    clear: left;
+}
+
+div#_6 {
+    visibility: hidden;
+}
+
+div#_8 {
+    display: none;
+}
+
+div#_9 {
+    clear: left;
+}
