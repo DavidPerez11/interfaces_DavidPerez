@@ -1,0 +1,19 @@
+div#principal {
+    width: 50%;
+    height: 15rem;
+    margin: auto;
+    background-color: cyan;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-content: center;
+}
+
+div#principal div {
+    height: 2rem;
+    width: 10rem;
+    background-color: orangered;
+    text-align: center;
+    vertical-align: middle;
+}

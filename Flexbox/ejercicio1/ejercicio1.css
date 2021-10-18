@@ -1,0 +1,40 @@
+div#principal1 {
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 50%;
+    height: 5rem;
+    background-color: cyan;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+div#principal1 div {
+    height: 2rem;
+    width: 10rem;
+    background-color: orangered;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+div#principal2 {
+    margin: auto;
+    width: 50%;
+    height: 5rem;
+    background-color: cyan;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+div#principal2 div {
+    height: 2rem;
+    width: 10rem;
+    background-color: orangered;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
