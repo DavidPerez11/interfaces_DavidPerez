@@ -1,0 +1,64 @@
+div#principal {
+    width: 50%;
+    height: fit-content;
+    padding: 3px;
+    background-color: darkcyan;
+    margin: auto;
+}
+
+div#principal > div {
+    width: 100%;
+    background-color: gray;
+    height: 4rem;
+    margin: 1px;
+    display: flex;
+    margin-bottom: 7px;
+}
+
+div#principal > div#primero {
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+div#principal > div#segundo {
+    justify-content: space-around;
+}
+
+div#principal > div#tercero {
+    margin-bottom: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div#principal > div > div {
+    background-color: orangered;
+    height: 1.5rem;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#principal > div#primero > div.tercero {
+    align-self: flex-start;
+}
+
+div#principal > div#segundo > div.tercero {
+    align-self: center;
+}
+
+div#principal > div#tercero > div.segundo {
+    height: 17px;
+}
+
+div#principal > div#tercero > div.tercero {
+    height: 40px;
+}
+
+div#principal > div#tercero > div.cuarto {
+    height: 50px;
+}
+
+div#principal > div#tercero > div.quinto {
+    height: 13px;
+}
