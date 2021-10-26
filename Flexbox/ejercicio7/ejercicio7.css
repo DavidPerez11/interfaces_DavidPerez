@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+
+.banda {
+    background-color:midnightblue;
+    height: 6.65em;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.medio {
+    height: 59rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.medio > div {
+    width: 30%;
+}
+
+.contenido.n1 {
+    margin-left: 2em;
+}
+
+.contenido {
+    margin-top: 3em;
+    font-size: 2em;
+    border-bottom: 3px solid gray;
+    height: 45rem;
+}
+
+.naranja {
+    background-color:darkorange;
+    display: flex;
+    flex-direction: column;
+}
+
+.naranja > div {
+    border: 1px solid black;
+    width: 90%;
+    height: 45%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 0;
+}
+
+.naranja > div > div {
+    width: 50%;
+    height: 50%;
+}
+
+.rojo {
+    background-color: darkred;
+    color: white;
+    font-size: 2em;
+}
+
+.naranja-rojo {
+    background-color: orangered;
+}
+
+.titulo {
+    color: white;
+    height: 100%;
+    margin-left: 0.5em;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-right: 1em;
+    display: flex;
+    margin-left: 1em;
+    height: 50%;
+}
+
+.menu > div {
+    background-color: firebrick;
+    width: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.redes {
+    display: flex;
+    margin-right: 1em;
+    height: 50%;
+}
+
+.redes > div {
+    background-color: darkorange;
+    width: 4em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
