@@ -1,0 +1,60 @@
+.borde {
+    border: 2px solid black;
+}
+
+.contenedor-principal {
+    height: 90vh;
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+.cabecera {
+    width: 100%;
+    height: 4em;
+}
+
+.medio {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1em;
+    gap: 1em;
+}
+
+.arriba {
+    height: 30%;
+    width: 15%;
+}
+
+.debajo {
+    height: calc(70% - 1.5em);
+    width: 15%;
+}
+
+.derecha {
+    width: calc(85% - 2em);
+    height: calc(100% );
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.derecha > div {
+    border: 1px dotted blue;
+    width: 28em;
+    height: 7em;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.pie {
+    width: 100%;
+}
