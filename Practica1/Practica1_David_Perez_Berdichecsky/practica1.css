@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#cabecera {
+    background-color: rgb(12, 107, 166);
+    display: flex;
+    height: 5em;
+    width: 100%;
+    justify-content: space-around;
+    gap: 1em;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+}
+
+#cabecera > div {
+    height: 60%;
+    color: white;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.borde {
+    border: 1px solid white;
+}
+
+#cabecera > div:first-child {
+    flex-grow: 3;
+    color: rgb(12, 107, 166);
+    background-color: white;
+}
+
+#cabecera > div:nth-child(4){
+    color: rgb(12, 107, 166);
+    background-color: white;
+}
+
+.perfil {
+    border: 1px solid rgb(12, 107, 166);
+    max-width: 50px;
+    background: url(imgs/foto-perfil2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 85px;
+    border-radius: 110%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#cabecera > div:last-child {
+    max-width: 3em;
+    margin-right: 2em;
+}
+
+#medio {
+    width: 100%;
+    height: 45em;
+    background-color: rgb(12, 107, 166);
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+#medio > div:first-child {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+}
+
+#medio > div:nth-child(2) {
+    background-color: white;
+    color: rgb(12, 107, 166);
+    font-size: 3em;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.tareas {
+    width: 100%;
+    height: 17em;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.encabezado {
+    background-color: rgb(12, 107, 166);
+    width: 33.2%;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    font-size: 2em;
+}
+
+.contenido {
+    width: 33.2%;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contenido > div {
+    margin-left: 2em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.rojo {
+    color: #CC0000;
+}
+
+.amarillo {
+    color: #D0E22E;
+}
+
+.verde {
+    color: #61C664;
+}
+
+.explicacion {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 10em;
+    margin-top: 2em;
+    justify-content: space-around;
+}
+
+.explicacion > div {
+    margin-left: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#pie {
+    background-color: rgb(12, 107, 166);
+    width: 100%;
+    height: 28.95em;
+    padding: 1em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.info {
+    height: 10em;
+    width: 15em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.info:first-of-type {
+    height: 7em;
+}
+
+.info:nth-child(2) {
+    height: 28em;
+    width: 25em;
+}
+
+.redes {
+    width: 100%;
+    height: 6em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info > div {
+    font-size: 1.5em;
+}
+
+.info:last-of-type {
+    margin-right: 2em;
+    height: 11em;
+}
+
+.subrayado {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.red {
+    width: 120px;
+    height: 120px;
+    border-radius: 25%;
+}
+
+.copyright {
+    position: relative;
+    top: 10em;
+}
+
+.salir {
+    width: 7em;
+    height: 4em;
+    background-color: white;
+    color: rgb(12, 107, 166);
+    position: absolute;
+    right: 11px;
+    top: 51.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
