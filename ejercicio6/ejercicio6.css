@@ -1,0 +1,17 @@
+#div 
+{
+    width: 500px;
+    height: 500px;
+    animation-name: animacion;
+    animation-duration: 8s;
+    background-image: url(img/html.png);
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@keyframes animacion {
+    25% {background-image: url(img/css.png);}
+    50% {background-image: url(img/php.png);}
+    75% {background-image: url(img/js.png);}
+}

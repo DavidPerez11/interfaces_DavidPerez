@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+.dvd {
+    position: absolute;
+    animation-name: dvdmove;
+    animation-duration: 5s;
+	animation-iteration-count: infinite;
+    animation-timing-function: linear;	
+    animation-fill-mode: backwards;
+}
+
+@keyframes dvdmove {
+    0% {top: 50%; left: 0;}
+    25% {top: 83.5%; left: 50%}
+    50% {top: 50%; left: 83.5%;}
+    75% {top: 0; left: 50%;}
+    100% {top: 50%; left: 0;}
+}
