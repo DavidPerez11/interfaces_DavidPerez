@@ -2,6 +2,7 @@ package eventosValidar;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
@@ -25,16 +26,18 @@ public class MainController {
     
     @FXML
     void initialize() {
-        
+    	
     	TextInputDialog textDialog = new TextInputDialog();
     	textDialog.setTitle("Ejemplo de diálogo");
     	textDialog.setHeaderText("Diálogo para introducir un texto");
     	
     	botonDialogo.setOnAction(e -> {
     	// Se incluye la respuesta del usuario un campo de tipo Text
-    	textDialog.showAndWait().ifPresent(response -> {
+    	textDialog.showAndWait()
+    	.ifPresent(response -> {
     	inputUsuario = response;
     	});
+    	textDialog.setOnCloseRequest(event -> textField.requestFocus());
     	textField.setText(inputUsuario);
     	}); 
     	
