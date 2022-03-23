@@ -7,4 +7,5 @@ module EjerciciosEventos_Dialogos_Unidad10 {
 	opens eventosValidar to javafx.graphics, javafx.fxml, javafx.controls;
 	opens draggableFiles to javafx.graphics, javafx.fxml, javafx.controls;
 	opens choiceEjercicio to javafx.graphics, javafx.fxml, javafx.controls;
+	opens pagination to javafx.graphics, javafx.fxml, javafx.controls;
 }
